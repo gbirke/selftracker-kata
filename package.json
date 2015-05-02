@@ -2,7 +2,7 @@
   "name": "selftracker-kata",
   "version": "0.0.1",
   "description": "Implementation of the 'self tracker' code kata",
-  "repository": "https://github.com/gbirke/timelog-kata",
+  "repository": "https://github.com/gbirke/selftracker-kata",
   "private": "true",
   "main": "server.js",
   "browser": "js/main.js",

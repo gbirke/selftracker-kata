@@ -1,0 +1,26 @@
+.currentDate h3 {
+	font-size:130%;
+	text-align:center;
+}
+
+.currentDate h2 {
+	font-size:150%;
+	text-align:center;
+}
+
+.mainbutton {
+	text-align:center;	
+}
+
+.datelist {
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 0;
+	width:60%;
+}
+
+.datelist li {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0
+}

@@ -1,9 +1,10 @@
 var React = require('react');
+var DateGenerator = require('../utils/DateGenerator');
 
 var DateDisplay = React.createClass({
 	getInitialState: function() {
 		return {
-			date: new Date()
+			date: DateGenerator.now()
 		};
 	},
 	render: function() {

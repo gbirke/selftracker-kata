@@ -1,13 +1,9 @@
 var React = require('react');
+var DateDisplay = require('./components/DateDisplay');
 
-var Main = React.createClass({
-	render: function() {
-		return <div>Hello World!</div>
-	}
-});
 
 React.render(
-  <Main />,
+  <DateDisplay />,
   document.getElementById("main")
 );
 

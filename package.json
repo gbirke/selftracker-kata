@@ -5,7 +5,10 @@
   "repository": "https://github.com/gbirke/selftracker-kata",
   "private": "true",
   "main": "server.js",
-  "browser": "js/main.js",
+  "browser": {
+    "server.js": "./js/main.js",
+    "moment": "./node_modules/moment/min/moment-with-locales.min.js"
+  },
   "scripts": {
     "start": "node server.js",
     "watch": "watchify -o web/js/app.js -v -d .",
@@ -26,6 +29,7 @@
   },
   "dependencies": {
     "express": "^4.12.3",
+    "moment": "^2.10.2",
     "morgan": "^1.5.2",
     "react": "^0.13.2"
   },
